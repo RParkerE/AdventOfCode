@@ -48,6 +48,6 @@ processFile filename wordMap = do
 
 main :: IO ()
 main = do
-  let filePath = "C:\\Users\\parke\\OneDrive\\Documents\\GitHub\\AdventOfCode\\2023\\day1_input.txt"
+  let filePath = "..\\..\\day1_input.txt"
   result <- processFile filePath word2num
   putStrLn $ "The sum of all calibration values is: " ++ show result
